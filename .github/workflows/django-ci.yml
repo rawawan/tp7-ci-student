@@ -26,4 +26,4 @@ jobs:
 
     - name: Run Django tests
       run: |
-        python manage.py test
+        python manage.py test --settings=miniProject.settings_ci
